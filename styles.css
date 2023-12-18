@@ -1,0 +1,60 @@
+.not-supported-message {
+    background-color: #ffd2d2;
+    padding: 10px;
+    border: 1px solid #ff9999;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9f9f9f;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333;
+}
+
+button {
+  background-color: #fff7cc;
+  color: #333;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#videoElement {
+  width: 80%;
+  max-width: 640px;
+  border: 2px solid #fff7cc;
+  border-radius: 5px;
+  margin-top: 20px;
+  display:none;
+}
+
+#photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#photosdb {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#photos img {
+  width: 20%; 
+  margin: 5px; 
+}
+
+  
